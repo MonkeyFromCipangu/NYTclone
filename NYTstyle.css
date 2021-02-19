@@ -455,7 +455,7 @@ figure > iframe {
 #bottom-navigation-links {
     padding: 0 3rem;
     display: block;
-    font-family: font-family: "Libre Franklin", helvetica, arial, sans-serif;
+    font-family: font-family, "Libre Franklin", helvetica, arial, sans-serif;
 }
 
 #footer-links {
