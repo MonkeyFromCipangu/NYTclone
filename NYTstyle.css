@@ -20,3 +20,534 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
+/* GLOBAL */
+
+* {
+    box-sizing: border-box;
+    list-style: none;
+}
+
+/* TOP NAVBAR */
+
+#top-nav-bar {
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+#header-container{
+    width: 100%;
+    height: 3rem;
+    border-style: solid;
+    background-color: white;
+    padding: 0 1rem;
+
+}
+
+#top-header-navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px;
+    font-family: 'Franklin Gothic Medium', Helvetica, sans-serif;
+
+}
+
+#left-nav{
+    flex: 0 1 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    padding: 2px;    
+}
+
+#space-cosmos {
+    text-decoration: none;
+    color: #000;
+    padding-top: 3px;
+    font-weight: bold
+}    
+
+#middle-nav{
+    flex: 0 1 15%;
+    
+}
+
+#right-nav{
+    flex: 0 1 14%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.subscribe-button {
+    cursor: pointer;
+    border-radius: 2px;
+    background-color: #567b95;
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 11px;
+}
+
+.login-button {
+    cursor: pointer;
+    border-radius: 2px;
+    background-color: #567b95;
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 11px;
+}
+
+/* HEADER */
+
+main {
+    margin: 5rem auto;
+}
+
+#article-header > h1 {
+    color: #121212;
+    font-size: 40px;
+    width: 600px;
+    font-weight: 500;
+    line-height: 1.2;
+    margin: 0 auto;
+}
+
+#share-links {
+    width: 600px;
+    padding-top: 1.25rem;
+    border-top: 1px solid #ebebeb;
+    margin: 0 auto;
+}
+
+#header-links-list {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    list-style: none;
+    width: 200px;
+    padding-top: 1.25rem;
+    border-top: 1px solid #ebebeb;
+}
+
+#header-image {
+    margin: 1.5625rem auto;
+    width: 900px;
+}
+
+#header-image > img {
+    width: 945px;
+    height: 532px;
+}
+
+#header-image > figcaption {
+    width: 720px;
+    margin: 0.625rem 0 1.25rem 0;
+    line-height: 1.3;
+    font-size: 15px;
+    color: #666;
+}
+
+#header-image > figcaption > span{
+    font-size: 11px;
+    color: #888;
+}
+
+#article-author {
+    width: 600px;
+    margin: 0 auto 1.25rem;
+
+}
+
+#author-name {
+    width: 100%;
+    margin-bottom: 1.25rem;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 1.25;
+}
+
+#author-name > a{
+    text-decoration: underline;
+    text-decoration-color: #ccc;
+    color: #333;
+}
+
+/* ARTICLE */
+
+.article-content-wrapper {
+    margin-left: calc((100% - 600px) / 2);
+    margin-right: 0;
+    width: 600px;
+}
+
+.article-content-wrapper > p {
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}
+
+.sub-titles-style {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+#editors-aside {
+    position: absolute;
+    right: 0px;
+    width: 200px;
+}
+
+.editor-link {
+    display: flex;
+    align-content: center;
+}
+
+.editor-link > img {
+    width: 100px;
+    margin: 5px;
+}
+
+.editor-link > h3 {
+    align-self: center;
+}
+
+#editors-aside > h2 {
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    border-bottom: 1px solid rgb(226, 226, 226);
+    margin-top: 0px;
+    margin-bottom: 15px;
+    padding-bottom: 12px;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 0.02em;
+}
+
+figure > iframe {
+    width: 600px;
+    height: 315px;
+}
+
+#video-container {
+    margin: 2rem auto;
+}
+
+
+#video-caption {
+    font-size: 15px;
+    color: #666;
+}
+
+#video-caption-credits {
+    font-size: 11px;
+    color: #888;
+}
+
+#telescope > image {
+    width: 600px;
+    height: 401px;
+}
+
+#telescope {
+    margin: 3rem 0;
+}
+
+#telescope-span {
+    display: block;
+    margin-right: 7px;
+    font-size: 15px;
+    color: #666;
+}
+
+#telescope-span-credits {
+    font-size: 11px;
+    color: #888;
+}
+
+#theory-of-inflation-wrap {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+#theory-contents {
+    width: 945px;
+    margin: 0 auto 3.5rem;
+    line-height: 1.3;
+}
+
+#theory-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: .125rem;
+}
+
+#theory-image {
+    position: relative;
+}
+
+#theory-of-inflation-image {
+    position: relative;
+    width: 100%;
+    z-index: -1;
+}
+
+.theory-image-desc {
+    position: absolute;
+    width: 228px;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 17px;
+}
+
+.image-1 {
+    top: 24.8264%;
+}
+
+.image-2 {
+    top: 24.8264%;
+    left: 25.5619%;
+}
+
+.image-3 {
+    top: 24.8264%;
+    left: calc(25.5619%*2);
+}
+
+.image-4 {
+    top: 24.8264%;
+    left: calc(25.5619%*3);
+}
+
+.image-5 {
+    top: calc(24.8264%*3);
+}
+
+.image-6 {
+    top: calc(24.8264%*3);
+    left: 25.5619%;
+}
+
+.image-7 {
+    top: calc(24.8264%*3);
+    left: calc(25.5619%*2);
+}
+
+.image-8 {
+    top: calc(24.8264%*3);
+    left: calc(25.5619%*3);
+}
+
+#theory-footer {
+    margin-top: 1.5rem;
+}
+
+#theory-footer-top-border {
+    display: inline-block;
+    width: 60px;
+    height: 1px;
+    margin-bottom: 13px;
+    background-color: #000;
+}
+
+#theory-footer {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: .875rem;
+}
+
+#article-main-footer {
+    margin-left: calc((100% - 600px) / 2);
+    margin-right: 0;
+    width: 600px;
+}
+
+#article-main-footer > p {
+    font-family: 'Libre Franklin', Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #666;
+    margin: 0 auto 1rem;
+}
+
+#article-main-footer > p > a {
+    color: #666;
+    text-decoration: underline solid #666 1px;
+}
+
+#article-main-footer-links {
+    margin-left: calc((100% - 600px) / 2);
+    margin-right: 0;
+    width: 600px;
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-start;
+    list-style: none;
+}
+
+#article-main-footer-links > button {
+    flex: 0 1 50%;
+    background-color: rgb(86, 123, 149);
+    border: 1px solid rgb(50, 104, 145);
+    border-radius: 3px;
+    outline: none;
+    padding: 0.5rem 0;
+    font-family: 'Libre Franklin', Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: #fff;
+}
+
+#article-main-footer-links > ul {
+    flex: 0 1 50%;
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    padding: 6px;
+}
+
+#section-bottom-advertisement {
+    margin: 10rem 0;
+    padding: .75rem 0 1.875rem;
+    text-align: center;
+    width: 100%;
+    background-color: rgb(247, 247, 247);
+    border-bottom: 1px solid rgb(243, 243, 243);
+    border-top: 1px solid rgb(243, 243, 243);
+}
+
+/* FOOTER */
+
+#bottom-navigation-links {
+    width: 100%;
+    border-style: solid;
+}
+
+#nav-links-header {
+    display: flex;
+    flex-flow: row;
+
+}
+
+#home-page-link {
+    margin: 1.125rem 0 0 auto;
+    color: rgb(86, 123, 149);
+    font-family: 'Libre Franklin', helvetica, arial, sans-serif;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 11px;
+    text-decoration: none;
+}
+
+#footer-logo {
+    width: 195px;
+    height: 26px;
+}
+
+/* FOOTER */
+
+#bottom-navigation-links {
+    padding: 0 3rem;
+    display: block;
+    font-family: font-family: "Libre Franklin", helvetica, arial, sans-serif;
+}
+
+#footer-links {
+    display: inline-flex;
+    gap: 3rem;
+    padding-bottom: .5rem;
+    border-bottom: 1px solid rgb(226, 226, 226);
+
+}
+
+#links-grid{
+    flex: 1 0;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-column-gap: 3rem;
+}
+
+#links-grid > ul > h3 {
+    font-size: 13px;
+    font-weight: 1000;
+    color: rgb(51, 51, 51);
+    margin-bottom: .625rem;
+}
+
+#links-grid > ul > ul > h3 {
+    font-size: 13px;
+    font-weight: 1000;
+    color: rgb(51, 51, 51);
+    margin-bottom: .625rem;
+}
+
+#links-grid > ul {
+    line-height: 1.5rem;
+    
+}
+
+#links-grid > ul > li > a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+#links-grid > ul > ul > li > a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+#subscribe-main-menu {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.subscribe-svg {
+    display: inline-block;
+    height: 13px;
+    width: 13px;
+    margin-right: 7px;
+    vertical-align: middle;
+}
+
+#subscribe-sub-menu1 {
+    font-size: 13px;
+    padding-top: 1rem;
+    line-height: 2.1;
+}
+
+#subscribe-sub-menu2 {
+    font-size: 13px;
+    padding-top: 1rem;
+    line-height: 2.1;
+}
+
+#foot-nav-wrapper {
+    display: flex;
+    margin: 0 3rem;
+    padding-top: .5rem;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+
+#foot-nav-wrapper > ul {
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+#foot-nav-wrapper > ul > li {
+    padding: 0 .325rem;
+}
+
+#foot-nav-wrapper > ul > li > a {
+padding: .5625rem 0;
+    font-family: 'Libre Franklin', helvetica, arial, sans-serif;
+    font-size: 11px;
+    font-weight: 300;
+    color: #666;
+}
