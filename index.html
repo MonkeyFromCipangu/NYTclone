@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> NYT clone page</title>
     <link rel="stylesheet" href="NYTstyle.css">
-    <meta name="Mariano Abilleira">
+    <meta name ="author" content="Mariano Abilleira">
 </head>
 
 <body>
@@ -46,7 +46,7 @@
     <!--Main-->
     <main>
         <div id="article-container">
-            <header id="article-header"">
+            <header id="article-header">
             <h1>Space Ripples Reveal Big Bang's Smoking Gun</h1>
             <div id="share-links">
                 <ul id="header-links-list">
@@ -72,16 +72,15 @@
                             </svg></a></li>
                 </ul>
         </div>
-        </div>
 
         <div>
             <figure>
                 <div id="header-image">
                     <img src="https://static01.nyt.com/images/2014/03/18/science/space/18cosmos/18cosmos-superJumbo.jpg?quality=90&auto=webp"
                         alt="Alan Guth was one of the first physicists to hypothesize the existence of inflation, which explains how the universe expanded so uniformly and so quickly in the instant after the Big Bang 13.8 billion years ago.">
-                    <figcaption>Alan Guth was one of the first physicists to hypothesize the existence of inflation,
+                    <div id="header-img-figcaption">Alan Guth was one of the first physicists to hypothesize the existence of inflation,
                         which explains how the universe expanded so uniformly and so quickly in the instant after the
-                        Big Bang 13.8 billion years ago. <span>Rick Friedman for The New York Times</span> </figcaption>
+                        Big Bang 13.8 billion years ago. <span>Rick Friedman for The New York Times</span></div>
                 </div>
             </figure>
         </div>
@@ -95,7 +94,6 @@
                 <time datetime="2014-03-17T10:46:03-04:00">March 17, 2014</time>
             </div>
         </div>
-
         </header>
 
         <section id="article-main-body">
@@ -140,24 +138,24 @@
             <aside id="editors-aside">
                 <h2>Editors’ Picks</h2>
                 <div class="editor-link">
-                    <img
+                    <img alt="microverse-logo" class="editors-pick-image"
                         src="data:image/png;base64,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">
                     <h3>Join Microverse!</h3>
                 </div>
                 <div class="editor-link">
-                    <img
+                    <img alt="microverse-logo" class="editors-pick-image"
                         src="data:image/png;base64,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">
                     <h3>Join Microverse!</h3>
                 </div>
                 <div class="editor-link">
-                    <img
+                    <img alt="microverse-logo" class="editors-pick-image"
                         src="data:image/png;base64,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">
                     <h3>Join Microverse!</h3>
                 </div>
             </aside>
 
             <div class="article-content-wrapper">
-                <h1 class="sub-titles-style">‘As Big as It Gets’</h1>
+                <h2 class="sub-titles-style">‘As Big as It Gets’</h2>
                 <p class="article-paragraph">In our own universe, it would serve as a window into the forces operating
                     at energies forever beyond the reach of particle accelerators on Earth and yield new insights into
                     gravity itself. Dr. Kovac’s ripples would be the first direct observation of gravitational waves,
@@ -178,7 +176,7 @@
             <div id="theory-of-inflation-wrap">
                 <div id="theory-contents">
                     <div id="theory-header">
-                        <h1 id="theory-title">The Theory Of Inflation</h1>
+                        <h2 id="theory-title">The Theory Of Inflation</h2>
                         <p id="theory-title-description">
                             Astronomers have found evidence to support the theory of inflation, which explains how the
                             universe expanded so uniformly and so quickly in the instant after the Big Bang 13.8 billion
@@ -240,10 +238,11 @@
                         </div>
                     </div>
                     <div id="theory-footer">
-                        <div id="theory-footer-top-border"></div>
+                        <div id="theory-top-border"></div>
                         <p>By LARRY BUCHANAN AND JONATHAN CORUM</p>
                     </div>
                 </div>
+            </div>
 
                 <div class="article-content-wrapper">
                     <p class="article-paragraph">Dr. Kovac said the chance that the results were a fluke was only one in
@@ -324,7 +323,7 @@
                         report its own findings this year. At least a dozen other teams are trying similar measurements
                         from
                         balloons, mountaintops and space.</p>
-                    <h1 class="sub-titles-style">Spirals in the Sky</h1>
+                    <h2 class="sub-titles-style">Spirals in the Sky</h2>
                     <p class="article-paragraph">Gravity waves are the latest and deepest secret yet pried out of the
                         cosmic
                         microwaves, which were discovered accidentally by Arno Penzias and Robert Wilson at Bell Labs 50
@@ -345,13 +344,11 @@
                     <div id="telescope">
                         <img alt="The Bicep2 telescope, in the foreground, was used to detect the faint spiraling gravity patterns &mdash; the signature of a universe being wrenched violently apart at its birth."
                             src="https://static01.nyt.com/images/2014/03/18/science/space/18cosmos-2/18cosmos-2-articleLarge.jpg?quality=75&auto=webp&disable=upscale">
-                        <figcaption>
                             <span id="telescope-span">The Bicep2 telescope, in the foreground, was used to detect the
                                 faint spiraling gravity
                                 patterns — the signature of a universe being wrenched violently apart at its
                                 birth.</span>
-                            <span id="telescope-span-credits">Steffen Richter/Associated Press</span>
-                        </figcaption>
+                            <span id="telescope-span-credits">Steffen Richter/Associated Press</span>         
                     </div>
 
                     <p class="article-paragraph">In 2002, he was part of a team that discovered that the microwave
@@ -368,7 +365,7 @@
                     <p class="article-paragraph">The strength of the signal surprised the researchers, and they spent a
                         year burning up time on a Harvard supercomputer, making sure they had things right and worrying
                         that competitors might beat them to the breakthrough.</p>
-                    <h1 class="sub-titles-style">A Special Time</h1>
+                    <h2 class="sub-titles-style">A Special Time</h2>
                     <p class="article-paragraph">The data traced the onset of inflation to a time that physicists like
                         Dr. Guth, staying up late in his Palo Alto house 35 years ago, suspected was a special break
                         point in the evolution of the universe.</p>
@@ -424,7 +421,7 @@
                     </p>
                 </div>
                 <div id="article-main-footer-links">
-                    <button>READ COMMENTS</button>
+                    <button type="button">READ COMMENTS</button>
                     <ul>
                         <li><a><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
                                     <path
@@ -446,6 +443,7 @@
                 </div>
                 <div id="section-bottom-advertisement"></div>
         </section>
+       </div> 
     </main>
 
     <!--Navigation links-->
@@ -461,7 +459,7 @@
         <div id="footer-links">
             <div id="links-grid">
                 <ul>
-                    <h3>NEWS</h3>
+                    <li><p>NEWS</p></li>
                     <li><a href="http://www.nytimes.com" target="_blank" rel="noopener noreferrer">Home Page</a></li>
                     <li><a href="https://www.nytimes.com/section/world" target="_blank"
                             rel="noopener noreferrer">World</a></li>
@@ -491,7 +489,7 @@
                             rel="noopener noreferrer">Correction</a></li>
                 </ul>
                 <ul>
-                    <h3>OPINION</h3>
+                    <li><p>OPINION</p></li>
                     <li><a href="https://www.nytimes.com/section/opinion" target="_blank"
                             rel="noopener noreferrer">Today's Opinion</a></li>
                     <li><a href="https://www.nytimes.com/section/opinion/columnists" target="_blank"
@@ -508,7 +506,7 @@
                             Opinion</a></li>
                 </ul>
                 <ul>
-                    <h3>ARTS</h3>
+                    <li><p>ARTS</p></li>
                     <li><a href="https://www.nytimes.com/section/arts" target="_blank" rel="noopener noreferrer">Today’s
                             Art</a></li>
                     <li><a href="https://www.nytimes.com/section/arts/design" target="_blank"
@@ -531,7 +529,7 @@
                             Arts</a></li>
                 </ul>
                 <ul>
-                    <h3>LIVING</h3>
+                    <li><p>LIVING</p></li>
                     <li><a href="https://www.nytimes.com/spotlight/at-home" target="_blank" rel="noopener noreferrer">At
                             Home</a></li>
                     <li><a href="https://www.nytimes.com/section/automobiles" target="_blank"
@@ -563,7 +561,7 @@
                             rel="noopener noreferrer">Travel</a></li>
                 </ul>
                 <ul>
-                    <h3>MORE</h3>
+                    <li><p>MORE</p></li>
                     <li><a href="https://www.nytimes.com/section/reader-center" target="_blank"
                             rel="noopener noreferrer">Reader Center</a></li>
                     <li><a href="https://www.nytimes.com/wirecutter/" target="_blank"
@@ -590,14 +588,14 @@
                     <li><a href="https://myaccount.nytimes.com/seg" target="_blank" rel="noopener noreferrer">Manage My
                             Account</a></li>
                 </ul>
-                <ul>
-                    <ul id="subscribe-main-menu">
-                        <h3>SUBSCRIBE</h3>
+                <div>
+                    <ul>
+                        <li><p id="subscribe-main-menu">SUBSCRIBE</p></li>
                         <li><svg class="subscribe-svg" xmlns="http://www.w3.org/2000/svg" width="20" height="20"
                                 viewBox="0 0 24 24">
                                 <path
                                     d="M7 15h13v1h-13v-1zm4-4v3h5v-3h-5zm-1 0h-3v1h3v-1zm-3 3h3v-1h-3v1zm13-1h-3v1h3v-1zm-6.951-6.573v-.396h-1.215v1.941h1.255v-.396h-.78v-.406h.698v-.393h-.698v-.35h.74zm1.396.261l.238 1.284h.5l.501-1.941h-.482l-.249 1.32-.238-1.32h-.492l-.27 1.345-.24-1.345h-.505l.46 1.941h.506l.271-1.284zm1.901.916c-.149 0-.324-.043-.466-.116l-.024-.013-.098.398.015.008c.102.058.318.119.547.119.581 0 .788-.328.788-.61 0-.272-.161-.458-.507-.586-.254-.096-.338-.145-.338-.247 0-.098.1-.161.254-.161.136 0 .266.03.388.088l.023.011.107-.39-.015-.007c-.145-.065-.311-.098-.495-.098-.442 0-.739.239-.739.593 0 .262.181.458.535.581.227.081.304.144.304.247 0 .117-.102.183-.279.183zm-5.325.368h.485v-1.941h-.438v1.189l-.641-1.189h-.535v1.941h.438v-1.327l.691 1.327zm8.979 1.028h-13v1h13v-1zm0 2h-3v1h3v-1zm-17-9v17.199c0 .771-1 .771-1 0v-15.199h-2v15.98c0 1.115.905 2.02 2.02 2.02h19.958c1.117 0 2.022-.904 2.022-2.02v-17.98h-21zm19 16h-17v-14h17v14z" />
-                            </svg><a href="#" target="_blank" rel="noopener noreferrer">Home Delivery</a></li>
+                            </svg><a href="#" target="_blank" rel="noopener noreferrer"> Home Delivery</a></li>
                         <li><svg class="subscribe-svg" xmlns="http://www.w3.org/2000/svg" width="20" height="20"
                                 viewBox="0 0 24 24">
                                 <path
@@ -641,43 +639,44 @@
                                 target="_blank" rel="noopener noreferrer">Español</a></li>
                         <li><a href="https://cn.nytimes.com/" target="_blank" rel="noopener noreferrer">中文网</a></li>
                     </ul>
-                </ul>
+                </div>
             </div>
         </div>
         <footer>
             <div id="foot-nav-wrapper">
                 <ul>
-                    <li><a href="https://help.nytimes.com/hc/en-us/articles/115014792127-Copyright-notice"
+                    <li><a class="footer-navigation-links" href="https://help.nytimes.com/hc/en-us/articles/115014792127-Copyright-notice"
                             target="_blank" rel="noopener noreferrer">©&nbsp;<span>2021</span>&nbsp;<span>The New York
                                 Times Company</span></a></li>
-                    <li><a href="https://www.nytco.com/" target="_blank" rel="noopener noreferrer">NYTCo</a></li>
-                    <li><a href="https://help.nytimes.com/hc/en-us/articles/115015385887-Contact-Us" target="_blank"
+                    <li><a class="footer-navigation-links" href="https://www.nytco.com/" target="_blank" rel="noopener noreferrer">NYTCo</a></li>
+                    <li><a class="footer-navigation-links" href="https://help.nytimes.com/hc/en-us/articles/115015385887-Contact-Us" target="_blank"
                             rel="noopener noreferrer">Contact Us</a></li>
-                    <li><a href="https://www.nytco.com/careers/" target="_blank" rel="noopener noreferrer">Work with
+                    <li><a class="footer-navigation-links" href="https://www.nytco.com/careers/" target="_blank" rel="noopener noreferrer">Work with
                             us</a>
                     </li>
-                    <li><a href="https://nytmediakit.com/" target="_blank" rel="noopener noreferrer">Advertise</a></li>
-                    <li><a href="http://www.tbrandstudio.com/" target="_blank" rel="noopener noreferrer">T Brand
+                    <li><a class="footer-navigation-links" href="https://nytmediakit.com/" target="_blank" rel="noopener noreferrer">Advertise</a></li>
+                    <li><a class="footer-navigation-links" href="http://www.tbrandstudio.com/" target="_blank" rel="noopener noreferrer">T Brand
                             Studio</a>
                     </li>
-                    <li><a href="https://www.nytimes.com/privacy/cookie-policy#how-do-i-manage-trackers" target="_blank"
+                    <li><a class="footer-navigation-links" href="https://www.nytimes.com/privacy/cookie-policy#how-do-i-manage-trackers" target="_blank"
                             rel="noopener noreferrer">Your Ad Choices</a></li>
-                    <li><a href="https://www.nytimes.com/privacy/privacy-policy" target="_blank"
+                    <li><a class="footer-navigation-links" href="https://www.nytimes.com/privacy/privacy-policy" target="_blank"
                             rel="noopener noreferrer">Privacy Policy</a></li>
-                    <li><a href="https://help.nytimes.com/hc/en-us/articles/115014893428-Terms-of-service"
+                    <li><a class="footer-navigation-links" href="https://help.nytimes.com/hc/en-us/articles/115014893428-Terms-of-service"
                             target="_blank" rel="noopener noreferrer">Terms of Service</a></li>
-                    <li><a href="https://help.nytimes.com/hc/en-us/articles/115014893968-Terms-of-sale" target="_blank"
+                    <li><a class="footer-navigation-links" href="https://help.nytimes.com/hc/en-us/articles/115014893968-Terms-of-sale" target="_blank"
                             rel="noopener noreferrer">Terms of Sale</a></li>
-                    <li><a href="https://spiderbites.nytimes.com/" target="_blank" rel="noopener noreferrer">Site
+                    <li><a class="footer-navigation-links" href="https://spiderbites.nytimes.com/" target="_blank" rel="noopener noreferrer">Site
                             Map</a>
                     </li>
-                    <li><a href="https://help.nytimes.com/hc/en-us" target="_blank" rel="noopener noreferrer">Help</a>
+                    <li><a class="footer-navigation-links" href="https://help.nytimes.com/hc/en-us" target="_blank" rel="noopener noreferrer">Help</a>
                     </li>
-                    <li><a href="https://www.nytimes.com/subscription?campaignId=37WXW" target="_blank"
+                    <li><a class="footer-navigation-links" href="https://www.nytimes.com/subscription?campaignId=37WXW" target="_blank"
                             rel="noopener noreferrer">Subscriptions</a></li>
                 </ul>
             </div>
         </footer>
+    </div>    
 </body>
 
 </html>
