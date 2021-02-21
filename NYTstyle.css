@@ -523,7 +523,7 @@ figure > iframe {
   margin: 0.5rem 0;
 }
 
-.advert-hyperlink{
+.advert-hyperlink {
   color: black;
   text-decoration: none;
 }
@@ -621,9 +621,7 @@ figure > iframe {
   line-height: 2.3rem;
   font-weight: 400;
   color: rgb(18, 18, 18);
-  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
-  
-}
+  font-family: nyt-cheltenham, georgia, "times new roman", times, serif; }
 
 /* FOOTER */
 
