@@ -4,6 +4,16 @@
 
 HTML and CSS3 Module 1 project: Positioning and Floating Elements.
 
+The main objective of this project is to create a clone of a New York Times article page. The concepts that we look to apply on it are:
+
+_ Flexbox/Grid.
+_ Box Model.
+_ Positioning and embedding of images.
+
+# Project's Github Page
+
+- https://monkeyfromcipangu.github.io/NYTclone/
+
 ## Built With
 
 - HTML.
