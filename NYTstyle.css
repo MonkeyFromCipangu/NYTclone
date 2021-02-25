@@ -198,6 +198,10 @@ main {
   border-top: 1px solid #ebebeb;
 }
 
+.share-icons {
+  cursor: pointer;
+}
+
 #header-image {
   margin: 1.5625rem auto;
   width: 900px;
