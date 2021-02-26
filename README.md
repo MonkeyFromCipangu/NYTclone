@@ -10,7 +10,7 @@ The main objective of this project is to create a clone of a New York Times arti
 
 # Github Pages
 
-- https://monkeyfromcipangu.github.io/NYTclone/
+- https://m-abilleira.github.io/NYTclone/
 
 ## Built With
 
